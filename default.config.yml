@@ -1,7 +1,7 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: true
+configure_dotfiles: false
 configure_terminal: true
 configure_osx: true
 
@@ -43,6 +43,18 @@ dockitems_persist:
   - name: "Authy Desktop"
     path: "/Applications/Authy Desktop.app/"
     pos: 8
+  - name: "Whatsapp"
+    path: "/Applications/Whatsapp.app/"
+    pos: 9
+  - name: "Microsoft Edge"
+    path: "/Applications/Microsoft Edge.app/"
+    pos: 10
+  - name: "Google Chrome"
+    path: "/Applications/Google Chrome.app/"
+    pos: 11
+  - name: "Workspaces"
+    path: "/Applications/Workspaces.app/"
+    pos: 12
 
 configure_sudoers: false
 sudoers_custom_config: ''
@@ -63,6 +75,9 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - "1password"
+  - "amazon-workspaces"
+  - adobe-creative-cloud
   - autoconf
   - bash-completion
   - doxygen
@@ -88,12 +103,15 @@ homebrew_installed_packages:
   - readline
   - openssl
   - pv
+  - "ringcentral"
+  - terraform
   - wget
   - wrk
   - zsh-history-substring-search
   - htop
   - watch
   - minikube
+  - "synology-note-station-client"
 
 homebrew_taps:
   - homebrew/core
@@ -103,12 +121,18 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - authy
   - chromedriver
+  - daisydisk
   - docker
   - dropbox
   - firefox
+  - forklift
+  - google-cloud-sdk
   - google-chrome
   - handbrake
   - licecap
+  - microsoft-edge
+  - microsoft-office
+  - Microsoft-teams
   - sequel-ace
   - slack
   - sublime-text
