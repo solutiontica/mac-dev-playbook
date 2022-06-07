@@ -121,6 +121,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - authy
   - chromedriver
+  - cloudmounter
   - daisydisk
   - docker
   - dropbox
@@ -129,10 +130,12 @@ homebrew_cask_apps:
   - google-cloud-sdk
   - google-chrome
   - handbrake
+  - istat-menus
   - licecap
   - microsoft-edge
   - microsoft-office
   - Microsoft-teams
+  - mountain-duck
   - sequel-ace
   - slack
   - sublime-text
@@ -143,6 +146,7 @@ homebrew_cask_apps:
   - loom
   - google-drive
   - visual-studio-code
+  - vlc
   - opera
   - zoom
   - whatsapp
