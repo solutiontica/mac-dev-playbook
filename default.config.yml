@@ -130,7 +130,7 @@ homebrew_cask_apps:
   - google-cloud-sdk
   - google-chrome
   - handbrake
-  - istat-menus
+  # - istat-menus
   - licecap
   - microsoft-edge
   - microsoft-office
@@ -148,6 +148,7 @@ homebrew_cask_apps:
   - visual-studio-code
   - vlc
   - opera
+  - skype
   - zoom
   - whatsapp
   - synology-note-station-client
